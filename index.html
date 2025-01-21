@@ -1,39 +1,228 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Derrick Gan's Website</title>
-    <link href="Styles/derrickwebsite.css" rel="stylesheet" />
-  </head>
-  <h1> <strong>Derrick Gan</strong></h1>
-  <body>
-    <img id = "photo1" src="Images/dglinkedin.jfif" alt="My Linkedin Photo"/>
-    <p id = "photo1des">Click the photo above to see another photo of me</p>
-   
-    <p id = "bio">Hi! I'm Derrick, a third year majoring in Data Science and Business with a minor in Psychology. <br>
-         I was born and raised in the Bay Area and even though I'm a third year,
-         I don't think I'll ever get used to the cold here in Boston (nothing can top California weather). <br>
-          I love to play a wide variety of sports and I'm currently playing  on the men's club basketball team here at Northeastern. <br>
-           In my free time, I love to play chess, read, cook, workout, explore Boston, thrift, and play some poker with friends.</p>
-    
-    <img id = "photo2" src="Images/IMG_4959.PNG" alt="Basketball photo with my friends" width="307" height="410"/>
-    <p> Some things that I would like to add to this website in the future are:</p>
-    <ul>
-      <li>animations</li>
-      <li>cooler colors and font sizes</li>
-      <li>more user interaction</li>
-    </ul>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Derrick Gan's Website</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/portfolio/webicon.PNG">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
 
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/portfolio/pfp.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Derrick Gan</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="mailto:gan.de@northeastern.edu" class="email"><i class="bi bi-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/derrickygan/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+  </div>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/portfolio/portback.JPEG" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Derrick Gan</h2>
+        <p><span class="typed" data-typed-items="Student, Developer, Analyst, Athlete">Student</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>About Me</h2>
+          <p>Hi! My name is Derrick Gan and I'm a 4th year at Northeastern University. I am currently a Bachelors of Science candidate in 
+            Data Science and Business Administration (Concentration in Finance) and a minor in Psychology. I'm from Foster City, California 
+            and have lived in the Bay Area for my whole life. In school, I'm involved with the TAMID Group where I work with startups
+            on developing software and data analysis solutions. I'm also involved on the Northeastern Men's Club Basketball team
+            where I play the guard  position. Outside of school I love to read, go to the gym, learn about investing, and explore Boston with friends.
+            My goal is to leverage my education and experience to pursue a career in data science, finance, consulting, or software development, where 
+            I can apply my passion, creativity, and curiosity to solve real-world problems and create value for society. I am always eager to learn new skills, 
+            technologies, and methodologies, and to challenge myself with diverse projects. I am committed to working with integrity, professionalism, and excellence, 
+            and to making a positive impact on the people and organizations I work with.</p>
+        </div>
+  
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+              <div class="col-lg-4 d-flex justify-content-start">
+                  <div class="image-container">
+                      <img src="assets/img/portfolio/tamid.JPG" width="300px" class="img-fluid" title="TAMID recruitment event">
+                  </div>
+              </div>
+              <div class="col-lg-4 d-flex justify-content-center">
+                  <div class="image-container">
+                      <img src="assets/img/portfolio/clubball.JPEG" width="600px" height="800px" class="img-fluid" title="Team photo after a win against Tufts University">
+                  </div>
+              </div>
+              <div class="col-lg-4 d-flex justify-content-end">
+                  <div class="image-container">
+                      <img src="assets/img/portfolio/view.jpeg" width="300px" class="img-fluid" title="Morning view from my previous co-op at Bain Capital">
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      
+
+    </section>
+    <!-- /About Section -->
+
     
-    <p>Read more about
-        <a href="https://www.linkedin.com/in/derrickygan/">
-        me
-          </a> to learn even more about what I have done so far in my career and what I want to do in the future!
+
+    <!-- /Resume Section -->
+    <section id="resume" class="resume section">
+      <div class="container section-title" data-aos="fade-up">
+          <h2>Resume</h2>
+          <p>* Last updated Jan 2025</p>
+      </div>
+  
+      <div class="container resume-pdf">
+          <embed src="assets/resume/derrick2025T.pdf" type="application/pdf" width="70%" height="1000px">
+      </div>
+  
+  </section>
+  <!-- /Resume Section -->
+  
+  
+
+    <!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <p>I have worked on a wide range of projects using languages like Python and SQL to explore my interests in the world of sports and finance.
+      Here are a couple of them below. I hope you find them as interesting and fun as I did while working on them!
     </p>
-    <button> Enter your name and then scroll back up to the top &#128513</button>
-    <script src="Scripts/derrickwebsite.js"></script>
-  </body>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container">
+    <div class="row">
+
+      <!-- NBA Study -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="project">
+          <h3>NBA Athlete Performance Study</h3>
+          <p>In this project, I chose to analyze the performance of athletes as they age over time in their athletic careers.
+             My main question was whether experience or youthfulness is the key to performance. This question is quite relevant
+             to the modern basketball scene, where new incoming talent is projected to grow and surpass the older and experienced
+             veterans of the sport. The data scope of this project spanned multiple seasons and athletes of the NBA, with data derived
+              from the NBA itself. It followed both athletes that have played for several seasons and those that have had a brief career.
+            </p>
+          <img src="assets/img/portfolio/NBA Project.PNG" alt="Project Preview" class="img-fluid">
+          <a href="https://github.khoury.northeastern.edu/derrickg/DS3000-Project" target="_blank" class="btn btn-primary">View on GitHub</a>
+        </div>
+      </div>
+
+
+      <!-- Keybase -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="project">
+          <h3>KeyBase</h3>
+          <p>Keybase allows different users to do different things in terms of updating account security, 
+            or searching for something that they would like to look for if they were one of our different users. 
+            In our original wireframes, we planned to edcuate others about the importance of having good account
+             security by linking our buttons to external websites, but we were not able to do this in our appsmith
+              for the sake of simplicity. As growing adults, we have more responsibilities and need to make sure
+               that we are able to update our information regularly in order to stay on top of things. I created 
+              this project to give myself an introduction to new technologies, as well as see how databases store 
+            and update information.</p>
+          <img src="assets/img/portfolio/keybase.jpg" alt = "Project Preview" class="img-fluid">
+          <a href="https://github.com/derrickyg/Keybase" target="_blank" class="btn btn-primary">View on GitHub</a>
+        </div>
+      </div>
+
+      <!-- Stock Sentiment Analysis -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="project">
+          <h3>Stock Sentiment Analysis</h3>
+          <p>For the past few decades, the world has become increasingly connected through technology. Within it, social media has expanded
+             beyond its message-sharing origins to become a prominent source of influence in many other spheres. Social media's potential
+             to bear influential power over the financial markets was notably demonstrated during the Reddit-induced January 2021 GameStop
+             and AMC share price fiascos, leading to the coining of the term “meme stock.” However, publicly traded companies are discussed
+             all of the time on social media. Even when not on the scale of the Gamestop and AMC situation, social media-induced decisions
+             of buying, holding, and selling are entirely possible. The question I tried to answer was: How much power does social media really have over the 
+             stock market? How can something as regulated, technical, and concrete as the financial markets be influenced by something 
+             as simple as a social media post?</p>
+          <img src="assets/img/portfolio/sentiment.PNG" alt="Project 3 Preview" class="img-fluid">
+          <a href="https://github.com/derrickyg/Stock-Sentiment-Analysis" target="_blank" class="btn btn-primary">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- /Portfolio Section -->
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>

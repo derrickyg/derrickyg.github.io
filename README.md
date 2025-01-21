@@ -1,1 +1,0 @@
-# derrickyg.github.io
